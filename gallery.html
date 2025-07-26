@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View our painting project gallery - Before and after photos of our work in Mamelodi and Gauteng. See the transformation we can bring to your property.">
+    <title>Project Gallery | Khoza Professional Painting</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0/css/lightgallery.min.css">
+</head>
+<body>
+    <header class="animated-header">
+        <div class="container">
+            <div class="logo">
+                <h1>Khoza Professional Painting</h1>
+                <p>Transforming Spaces Since 2015</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Project Gallery</h1>
+            <p>See the transformations we've created for our clients</p>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="interior">Interior</button>
+                <button class="filter-btn" data-filter="exterior">Exterior</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="wallpaper">Wallpaper</button>
+            </div>
+            
+            <div class="gallery-grid" id="lightgallery">
+                <!-- Before/After Item -->
+                <div class="gallery-item" data-src="images/gallery/full1.jpg" data-sub-html="<h4>Living Room Transformation</h4><p>Complete interior repaint with color consultation</p>" data-category="interior">
+                    <div class="before-after-container">
+                        <div class="before-after-image">
+                            <img src="images/gallery/before1.jpg" alt="Before painting" loading="lazy">
+                            <img src="images/gallery/after1.jpg" alt="After painting" loading="lazy">
+                            <div class="before-after-handle"></div>
+                        </div>
+                        <div class="image-caption">
+                            <h3>Living Room Makeover</h3>
+                            <p>Mamelodi Residence</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Before/After Item -->
+                <div class="gallery-item" data-src="images/gallery/full2.jpg" data-sub-html="<h4>Exterior House Painting</h4><p>Complete exterior repaint with weatherproof coating</p>" data-category="exterior">
+                    <div class="before-after-container">
+                        <div class="before-after-image">
+                            <img src="images/gallery/before2.jpg" alt="Before painting" loading="lazy">
+                            <img src="images/gallery/after2.jpg" alt="After painting" loading="lazy">
+                            <div class="before-after-handle"></div>
+                        </div>
+                        <div class="image-caption">
+                            <h3>House Exterior Refresh</h3>
+                            <p>Pretoria East</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Single Image Item -->
+                <div class="gallery-item" data-src="images/gallery/commercial1.jpg" data-sub-html="<h4>Office Building Painting</h4><p>Commercial painting project completed after hours</p>" data-category="commercial">
+                    <img src="images/gallery/commercial1-thumb.jpg" alt="Commercial painting" loading="lazy">
+                    <div class="image-caption">
+                        <h3>Office Building</h3>
+                        <p>Midrand Business Park</p>
+                    </div>
+                </div>
+                
+                <!-- Before/After Item -->
+                <div class="gallery-item" data-src="images/gallery/full3.jpg" data-sub-html="<h4>Wallpaper Installation</h4><p>Feature wall with premium textured wallpaper</p>" data-category="wallpaper">
+                    <div class="before-after-container">
+                        <div class="before-after-image">
+                            <img src="images/gallery/before3.jpg" alt="Before wallpaper" loading="lazy">
+                            <img src="images/gallery/after3.jpg" alt="After wallpaper" loading="lazy">
+                            <div class="before-after-handle"></div>
+                        </div>
+                        <div class="image-caption">
+                            <h3>Wallpaper Feature Wall</h3>
+                            <p>Centurion Home</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Single Image Item -->
+                <div class="gallery-item" data-src="images/gallery/interior1.jpg" data-sub-html="<h4>Kitchen Cabinet Painting</h4><p>Cabinet refinishing with durable enamel paint</p>" data-category="interior">
+                    <img src="images/gallery/interior1-thumb.jpg" alt="Kitchen cabinets" loading="lazy">
+                    <div class="image-caption">
+                        <h3>Kitchen Cabinet Refresh</h3>
+                        <p>Mamelodi Home</p>
+                    </div>
+                </div>
+                
+                <!-- Single Image Item -->
+                <div class="gallery-item" data-src="images/gallery/exterior1.jpg" data-sub-html="<h4>Roof Painting</h4><p>Roof restoration and color refresh</p>" data-category="exterior">
+                    <img src="images/gallery/exterior1-thumb.jpg" alt="Roof painting" loading="lazy">
+                    <div class="image-caption">
+                        <h3>Roof Restoration</h3>
+                        <p>Pretoria West</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Transform Your Space?</h2>
+            <p>Contact us today for a free, no-obligation quote on your painting project.</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+                <a href="tel:+27123456789" class="btn btn-secondary"><i class="fas fa-phone"></i> Call Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        // Initialize lightGallery
+        document.getElementById('lightgallery').addEventListener('click', function() {
+            lightGallery(this, {
+                selector: '.gallery-item',
+                download: false,
+                counter: false
+            });
+        });
+        
+        // Filter gallery items
+        $(document).ready(function(){
+            $('.filter-btn').click(function(){
+                const value = $(this).attr('data-filter');
+                $('.filter-btn').removeClass('active');
+                $(this).addClass('active');
+                
+                if(value == 'all') {
+                    $('.gallery-item').show('1000');
+                } else {
+                    $('.gallery-item').not('.'+value).hide('1000');
+                    $('.gallery-item').filter('.'+value).show('1000');
+                }
+            });
+        });
+        
+        // Before/After slider
+        document.querySelectorAll('.before-after-image').forEach(container => {
+            const handle = container.querySelector('.before-after-handle');
+            let isDragging = false;
+            
+            handle.addEventListener('mousedown', () => {
+                isDragging = true;
+            });
+            
+            window.addEventListener('mouseup', () => {
+                isDragging = false;
+            });
+            
+            container.addEventListener('mousemove', (e) => {
+                if (!isDragging) return;
+                
+                const containerRect = container.getBoundingClientRect();
+                const x = e.clientX - containerRect.left;
+                const percentage = (x / containerRect.width) * 100;
+                
+                if (percentage >= 0 && percentage <= 100) {
+                    container.style.setProperty('--position', `${percentage}%`);
+                    handle.style.left = `calc(${percentage}% - 10px)`;
+                }
+            });
+            
+            // Touch events for mobile
+            handle.addEventListener('touchstart', () => {
+                isDragging = true;
+            });
+            
+            window.addEventListener('touchend', () => {
+                isDragging = false;
+            });
+            
+            container.addEventListener('touchmove', (e) => {
+                if (!isDragging) return;
+                
+                const containerRect = container.getBoundingClientRect();
+                const x = e.touches[0].clientX - containerRect.left;
+                const percentage = (x / containerRect.width) * 100;
+                
+                if (percentage >= 0 && percentage <= 100) {
+                    container.style.setProperty('--position', `${percentage}%`);
+                    handle.style.left = `calc(${percentage}% - 10px)`;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
